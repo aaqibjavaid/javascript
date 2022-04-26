@@ -1,0 +1,75 @@
+/* blog Social Sharing icons */
+ul.social-network1 {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network1 li {
+	display: inline;
+	
+}
+
+.social-network1 a.icoFacebook{
+	background-color: #3B5998;
+}
+.social-network1 a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network1 a.icoTwitter{
+background-color:#33ccff;
+}
+.social-network1 a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network1 a.icoLinkedin {
+	background-color:#007bb7;
+}
+.social-network1 a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network1 a.icoRss:hover i, .social-network1 a.icoFacebook:hover i, .social-network1 a.icoTwitter:hover i,
+.social-network1 a.icoGoogle:hover i, .social-network1 a.icoVimeo:hover i, .social-network1 a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	-moz-border-radius:5%;
+	-webkit-border-radius:5%;
+	border-radius:10%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
