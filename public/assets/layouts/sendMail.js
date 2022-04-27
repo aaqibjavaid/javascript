@@ -47,21 +47,16 @@ function sendEmail(data) {
     "<div>" +
     `<p><strong>From: </strong> ${data.name} ${" "}${data.email}</p> ` +
     `<p><strong>Contact#: </strong> ${data.phone}</p>` +
-    `<p><strong>Subject: </strong> Contact Us - Iyrix Tech</p>` +
+    `<p><strong>Subject: </strong> Contact Us - Reactif</p>` +
     `<p><strong>Message Body:</strong> <br/> ${data.message} </p>` +
     "</div>";
   Email.send({
-    // Host: "smtp.gmail.com",
-    // Username: "aaqib.javaid.0000@gmail.com",
-    // Password: "",
-    // To: "aaqib.javaid.0000@gmail.com",
-    // From: data.email,
     Host: "smtp.gmail.com",
-    Username: "info@iyrix.com",
-    Password: "P@kistan12",
-    To: "info@iyrix.com",
+    Username: "aaqib.javaid.0000@gmail.com",
+    Password: "AJ.SE@2021a",
+    To: "aaqib.javaid.0000@gmail.com",
     From: data.email,
-    Subject: "Contact Us - Iyrix Tech",
+    Subject: "Contact Us - Reactif",
     Body: emailBody,
   })
     .then(() => (document.getElementById("Alert").innerHTML = alert))
@@ -86,21 +81,16 @@ function sendEmailWithAttachment(data) {
       "<div>" +
       `<p><strong>From: </strong> ${data.name} ${" "}${data.email}</p> ` +
       `<p><strong>Contact#: </strong> ${data.phone}</p>` +
-      `<p><strong>Subject: </strong> Contact Us - Iyrix Tech</p>` +
+      `<p><strong>Subject: </strong> Contact Us - Reactif</p>` +
       `<p><strong>Message Body:</strong> <br/> ${data.message} </p>` +
       "</div>";
     Email.send({
-      // Host: "smtp.gmail.com",
-      // Username: "irehmanullah@gmail.com",
-      // Password: "itqlgiwtmpgprpoj",
-      // To: "aaqib.javaid.0000@gmail.com",
-      // From: data.email,
       Host: "smtp.gmail.com",
-      Username: "info@iyrix.com",
-      Password: "P@kistan12",
-      To: "info@iyrix.com",
+    Username: "aaqib.javaid.0000@gmail.com",
+    Password: "AJ.SE@2021a",
+    To: "aaqib.javaid.0000@gmail.com",
       From: data.email,
-      Subject: "Contact Us - Iyrix Tech",
+      Subject: "Contact Us - Reactif",
       Body: emailBody,
       Attachments: [
         {
