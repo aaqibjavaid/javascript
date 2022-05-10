@@ -12,7 +12,7 @@
              console.log(document.querySelector(oldHref.substring(oldHref.indexOf("#"))).top)
              window.scrollTo({
                    behavior: 'smooth',
-                   top: document.querySelector(oldHref.substring(oldHref.indexOf("#"))).getBoundingClientRect().top + window.pageYOffset - 190
+                   top: document.querySelector(oldHref.substring(oldHref.indexOf("#"))).getBoundingClientRect().top + window.pageYOffset - 130
              })
 
        }
